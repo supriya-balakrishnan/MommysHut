@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import mommyshutimg from '../image.png';
+
+
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -8,18 +11,18 @@ function NavBar() {
   const handleClick = () => setClick(!click);
   return (
     <>
+    
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
-            CodeBucks
-            <i className="fas fa-code"></i>
+        <NavLink exact to="/" className="nav-logo">
+           <div className="mommyslogo"><img className="logo" src={mommyshutimg} alt="Mommy's Hut"></img><b> Mommy's Hut </b></div>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
+                to="/Home"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -30,34 +33,34 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/about"
+                to="/Vegrecipes"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
-              >
-                About
+              > 
+                Veg Recipes
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/Chickenrecipes"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+                Chicken Recipes
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
                 exact
-                to="/contact"
+                to="/Seafood"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                SeaFood / Mutton Recipes
               </NavLink>
             </li>
           </ul>
