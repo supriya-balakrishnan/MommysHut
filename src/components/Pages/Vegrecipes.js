@@ -5,7 +5,7 @@ export function VegRecipes ()  {
     <li key={ vegdata.id}>
        <div className="chickencss">
     
-      <h3 style = {{ color: " brown"}} ><b>{vegdata.title}</b></h3>
+      <h3 className="title" ><b>{vegdata.title}</b></h3>
       <p >To view the recipe of <b>{vegdata.title}</b>,
        please click the image below:  </p>
       <br/>

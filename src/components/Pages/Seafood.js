@@ -5,7 +5,7 @@ export function SeaFood ()  {
     <li key={ seafooddata.id}>
        <div className="chickencss">
     
-      <h3 style = {{ color: " brown"}} >{seafooddata.title}</h3>
+      <h3 className="title" >{seafooddata.title}</h3>
       <p>To view the recipe of <b>{seafooddata.title}</b>, please click the image below:  </p>
       <br/>
       <a href={seafooddata.url}>

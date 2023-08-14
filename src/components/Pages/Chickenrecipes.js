@@ -7,7 +7,7 @@ export function ChickenRecipes ()  {
     <li key={chickendata.id}>
        <div className="chickencss">
     
-      <h3 style = {{ color: " brown"}}><b>{chickendata.title}</b></h3>
+      <h3 className="title"><b>{chickendata.title}</b></h3>
       <p>To view the recipe of <b>{chickendata.title}</b>, please click the image below: </p>
       <br/> 
       <a href={chickendata.url}>
