@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MommysHut/static/css/main.91502cab.css",
+    "main.js": "/MommysHut/static/js/main.d9be75cf.js",
+    "static/media/background.jpg": "/MommysHut/static/media/background.cc2bbc53e3d43fb7d215.jpg",
+    "static/media/image.png": "/MommysHut/static/media/image.d49ff4f650c5185afc32.png",
+    "static/media/MommysHut new.png": "/MommysHut/static/media/MommysHut new.967c75d8c1162fe27a96.png",
+    "index.html": "/MommysHut/index.html",
+    "main.91502cab.css.map": "/MommysHut/static/css/main.91502cab.css.map",
+    "main.d9be75cf.js.map": "/MommysHut/static/js/main.d9be75cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91502cab.css",
+    "static/js/main.d9be75cf.js"
+  ]
+}
